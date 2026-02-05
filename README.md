@@ -315,8 +315,6 @@
         <div class="card">
           <img src="Dashboard Templates_ Sales Dashboard.jpg" alt="Dashboard Dark Mode" />
         <div class="card">
-<img src="2025 Habit Tracker Spreadsheet Template for Google Sheets, Tracker Template.jpg"  width="300" height="300">
-        </div>
         </div>
       </div>
     </section>
