@@ -1,4 +1,4 @@
-
+            
 
 <html lang="ar" dir="rtl">
 <head>
@@ -251,10 +251,8 @@
           <div style="font-size:12px;color:var(--muted);margin-top:2px;">Excel & Google Sheets</div>
         </div>
       </div>
-
       <a class="btn" href="#order">اطلب الآن</a>
     </header>
-
     <!-- HERO -->
     <section class="grid hero">
       <div>
@@ -264,13 +262,11 @@
           قالب احترافي لـ <b>Excel</b> و<b>Google Sheets</b> لتتبع العادات اليومية/الأسبوعية،
           مع إحصائيات تلقائية، ستريك، ونظرة كاملة على تقدمك.
         </p>
-
         <div class="ctaRow">
           <a class="btn primary" id="waTop" href="#">تواصل واتساب للطلب</a>
           <a class="btn" href="#gallery">شاهد الصور</a>
           <a class="btn" href="#features">المميزات</a>
         </div>
-
         <div class="pillRow">
           <div class="pill">📈 رسوم تلقائية</div>
           <div class="pill">🔥 تتبع الستريك</div>
@@ -278,31 +274,26 @@
           <div class="pill">🌙 Dark Mode</div>
         </div>
       </div>
-
       <div class="card media">
         <!-- HERO IMAGE (بدّل المسار) -->
         <img src="qaidiiiii.jpg" alt="Habit Tracker Dashboard" />
       </div>
     </section>
-
     <!-- FEATURES -->
     <section class="section" id="features">
       <h2>ماذا ستحصل عليه؟</h2>
       <p>كل شيء جاهز للاستخدام… فقط اكتب عاداتك وابدأ التتبع.</p>
-
       <div class="grid features">
         <div class="card feat">
           <div class="icon">📊</div>
           <h3>رسوم وإحصائيات تلقائية</h3>
           <p>لوحات تقدم يومي/أسبوعي وشهري تُحدّث تلقائيًا بمجرد وضع العلامات.</p>
         </div>
-
         <div class="card feat">
           <div class="icon">🔥</div>
           <h3>Streak Tracking</h3>
           <p>تابع سلسلة الالتزام (ستريك) لتحافظ على الحماس والانضباط.</p>
         </div>
-
         <div class="card feat">
           <div class="icon">🎨</div>
           <h3>حالة ملوّنة وواجهة أنيقة</h3>
@@ -310,11 +301,9 @@
         </div>
       </div>
     </section>
-
     <!-- GALLERY -->
     <section class="section" id="gallery">
       <h2>صور المنتج</h2>
-
       <div class="grid gallery">
         <div class="card">
           <img src="qaidi12345.jpg" alt="Habit Tracker - Overview"/>
@@ -333,12 +322,10 @@
         </div>
       </div>
     </section>
-
     <!-- PRICING + ORDER -->
     <section class="section" id="order">
       <h2>اطلب الآن</h2>
       <p>اختر الطريقة الأنسب: تواصل واتساب مباشرة أو اترك بياناتك وسنتواصل معك.</p>
-
       <div class="grid pricing">
         <div class="card priceBox">
           <div class="kicker">🎁 تحميل فوري • استخدام غير محدود</div>
@@ -346,7 +333,6 @@
           <div style="color:var(--muted);margin-top:-2px;">
              <h2>  درهم 49    \5$ </h2>
           </div>
-
           <ul class="list">
             <li>يدعم Excel و Google Sheets</li>
             <li>تتبع حتى 30 عادة يومية + 15 أسبوعية</li>
@@ -354,41 +340,33 @@
             <li>Dark Mode + تصميم احترافي</li>
             <li>شراء مرة واحدة واستخدام دائم</li>
           </ul>
-
           <div class="ctaRow" style="margin-top:16px;">
             <a class="btn primary" id="waMid" href="#">اطلب عبر واتساب</a>
             <a class="btn" href="#faq">أسئلة شائعة</a>
           </div>
-
           <div class="fine" style="margin-top:10px;">
             * بعد الدفع يتم إرسال الملف مباشرة (أو حسب طريقتك أنت).
           </div>
         </div>
-
         <div class="card form">
           <div style="font-weight:900; font-size:18px;">نموذج طلب سريع</div>
-
           <div>
             <label>الاسم</label>
             <input id="name" type="text" placeholder="اكتب اسمك" />
           </div>
-
           <div>
             <label>رقم واتساب</label>
             <input id="phone" type="tel" placeholder="+212..." />
           </div>
-
           <div>
             <label>ملاحظة (اختياري)</label>
             <textarea id="note" placeholder="مثال: أريد النسخة الخاصة بـ Google Sheets"></textarea>
           </div>
-
           <button class="btn primary" id="sendWA" type="button">إرسال الطلب إلى واتساب</button>
           <div class="fine">بالضغط سيتم فتح واتساب برسالة جاهزة تحتوي بياناتك.</div>
         </div>
       </div>
     </section>
-
     <!-- FAQ -->
     <section class="section" id="faq">
       <h2>أسئلة شائعة</h2>
@@ -411,12 +389,10 @@
         </div>
       </div>
     </section>
-
     <footer>
       © <span id="year"></span> — متتبع العادات الذكي • تواصل واتساب للطلب
     </footer>
   </div>
-
   <!-- Floating WhatsApp -->
   <div class="wa-float">
     <a class="wa-btn" id="waFloat" href="#">
