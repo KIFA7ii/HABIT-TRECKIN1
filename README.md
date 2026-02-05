@@ -1,4 +1,3 @@
-            
 
 <html lang="ar" dir="rtl">
 <head>
@@ -253,7 +252,7 @@
       </div>
       <a class="btn" href="#order">اطلب الآن</a>
     </header>
-    <!-- HERO -->
+ <!-- HERO -->
     <section class="grid hero">
       <div>
         <div class="kicker">✅ <b>Smart Habit Tracker</b> • لوحة تحكم ورسوم تلقائية</div>
@@ -301,13 +300,11 @@
         </div>
       </div>
     </section>
-    <!-- GALLERY -->
     <section class="section" id="gallery">
       <h2>صور المنتج</h2>
       <div class="grid gallery">
         <div class="card">
-          <img src="    ![qaidiiiii](https://github.com/user-attachments/assets/53481134-4b7c-4427-96fb-443c8dfd644c)
-    " alt="Habit Tracker - Overview"/>
+          <img src="qaidi12345.jpg" alt="Habit Tracker - Overview"/>
         </div>
         <div class="card">
           <img src="habitaaaa.jpg" alt="Smart Features" />
@@ -323,7 +320,6 @@
         </div>
       </div>
     </section>
-    <!-- PRICING + ORDER -->
     <section class="section" id="order">
       <h2>اطلب الآن</h2>
       <p>اختر الطريقة الأنسب: تواصل واتساب مباشرة أو اترك بياناتك وسنتواصل معك.</p>
@@ -402,34 +398,24 @@
     </a>
     <a class="wa-mini" href="#order">اطلب</a>
   </div>
-
-  <script>
-    // ========= إعدادات واتساب =========
-    // ضع رقمك بصيغة دولية بدون + وبدون مسافات
     // مثال المغرب: 2126XXXXXXXX
     const WHATSAPP_NUMBER = "0701076318"; // <-- غيّر الرقم هنا
-
     const defaultMessage =
       "سلام! بغيت نطلب Smart Habit Tracker (Excel/Google Sheets). واش متوفر دابا؟";
-
     function waLink(message){
       const text = encodeURIComponent(message);
       return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
     }
-
     // Buttons links
     const waTop   = document.getElementById("waTop");
     const waMid   = document.getElementById("waMid");
     const waFloat = document.getElementById("waFloat");
-
     [waTop, waMid, waFloat].forEach(el => el.href = waLink(defaultMessage));
-
     // Form to WhatsApp
     document.getElementById("sendWA").addEventListener("click", () => {
       const name  = document.getElementById("name").value.trim() || "بدون اسم";
       const phone = document.getElementById("phone").value.trim() || "غير مذكور";
       const note  = document.getElementById("note").value.trim() || "لا يوجد";
-
       const msg =
 `طلب جديد 🧾
 المنتج: Smart Habit Tracker
@@ -438,10 +424,8 @@
 ملاحظة: ${note}
 
 ممكن تفاصيل الدفع/التسليم؟`;
-
       window.open(waLink(msg), "_blank");
     });
-
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
