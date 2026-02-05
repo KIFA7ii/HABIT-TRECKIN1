@@ -306,7 +306,8 @@
       <h2>صور المنتج</h2>
       <div class="grid gallery">
         <div class="card">
-          <img src="qaidi12345.jpg" alt="Habit Tracker - Overview"/>
+          <img src="    ![qaidiiiii](https://github.com/user-attachments/assets/53481134-4b7c-4427-96fb-443c8dfd644c)
+    " alt="Habit Tracker - Overview"/>
         </div>
         <div class="card">
           <img src="habitaaaa.jpg" alt="Smart Features" />
